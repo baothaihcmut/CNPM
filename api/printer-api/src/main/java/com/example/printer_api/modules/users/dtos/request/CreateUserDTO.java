@@ -1,4 +1,4 @@
-package com.example.printer_api.modules.users.dtos;
+package com.example.printer_api.modules.users.dtos.request;
 
 
 

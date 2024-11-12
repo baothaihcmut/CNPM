@@ -10,3 +10,10 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+
+outbound:
+  identity:
+    client-id: "904914536933-rn9iprnahvv77p78n2j7stuiinmjfqp9.apps.googleusercontent.com"
+    client-secret: "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"
+    redirect-uri: "http://localhost:3000/authenticate"
+    grant-type: "authorization-code"

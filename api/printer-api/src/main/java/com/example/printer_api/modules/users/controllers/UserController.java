@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.printer_api.modules.users.dtos.CreateUserDTO;
+import com.example.printer_api.modules.users.dtos.request.CreateUserDTO;
 import com.example.printer_api.shared.exception.StatusCode;
 import com.example.printer_api.shared.response.CustomReponse;
 import com.example.printer_api.shared.response.ResponseFactory;
