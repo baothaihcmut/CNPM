@@ -1,8 +1,5 @@
 package com.example.printer_api.modules.users.entities;
 
-import com.example.printer_api.shared.database.BaseEntity;
-import com.fasterxml.jackson.annotation.JsonManagedReference;
-
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -12,6 +9,10 @@ import jakarta.persistence.Index;
 import jakarta.persistence.OneToOne;
 import jakarta.persistence.PrePersist;
 import jakarta.persistence.Table;
+
+import com.example.printer_api.shared.database.BaseEntity;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
@@ -22,9 +23,9 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Data
 @EqualsAndHashCode(callSuper = true)
-@Table(name = "users", indexes = {
-        @Index(name = "idx_email", columnList = "email")
-})
+@Table(
+        name = "users",
+        indexes = {@Index(name = "idx_email", columnList = "email")})
 public class User extends BaseEntity {
     @Column()
     private String firstName;
@@ -59,5 +60,4 @@ public class User extends BaseEntity {
             this.isActive = false;
         }
     }
-
 }

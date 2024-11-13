@@ -19,6 +19,7 @@ import com.example.printer_api.shared.response.ResponseFactory;
 public class HttpExceptionHandler {
     @Autowired
     private ResponseFactory responseFactory;
+
     private Logger logger = LoggerFactory.getLogger(HttpExceptionHandler.class);
 
     @ExceptionHandler(RuntimeException.class)
@@ -40,5 +41,4 @@ public class HttpExceptionHandler {
     public ResponseEntity<CustomReponse> handleAppException(AppException e) {
         return ResponseEntity.status(e.getCode()).body(this.responseFactory.initResponse(false, e.getMessage(), null));
     }
-
 }

@@ -1,7 +1,6 @@
 package com.example.printer_api.modules.users.mappers;
 
 import org.mapstruct.Mapper;
-import org.mapstruct.Mapping;
 
 import com.example.printer_api.modules.users.dtos.response.UserReponse;
 import com.example.printer_api.modules.users.dtos.resquest.CreateUserRequest;

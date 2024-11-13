@@ -19,5 +19,4 @@ public class AppException extends RuntimeException {
     public String getMessage() {
         return this.message;
     }
-
 }

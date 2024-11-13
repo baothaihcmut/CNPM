@@ -3,15 +3,15 @@ package com.example.printer_api.modules.users.repositories;
 import java.util.Optional;
 import java.util.UUID;
 
-import org.springframework.stereotype.Repository;
-
-import com.example.printer_api.modules.users.entities.User;
-import com.example.printer_api.shared.database.BaseRepository;
-
 import jakarta.persistence.NoResultException;
 import jakarta.persistence.criteria.CriteriaBuilder;
 import jakarta.persistence.criteria.CriteriaQuery;
 import jakarta.persistence.criteria.Root;
+
+import org.springframework.stereotype.Repository;
+
+import com.example.printer_api.modules.users.entities.User;
+import com.example.printer_api.shared.database.BaseRepository;
 
 @Repository
 public class UserRepository extends BaseRepository<User> {
@@ -37,6 +37,5 @@ public class UserRepository extends BaseRepository<User> {
         } catch (NoResultException e) {
             return Optional.empty();
         }
-
     }
 }

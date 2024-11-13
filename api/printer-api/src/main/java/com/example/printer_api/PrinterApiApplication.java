@@ -7,8 +7,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @SpringBootApplication
 @EnableFeignClients
 public class PrinterApiApplication {
-	public static void main(String[] args) {
-		SpringApplication.run(PrinterApiApplication.class, args);
-	}
-
+    public static void main(String[] args) {
+        SpringApplication.run(PrinterApiApplication.class, args);
+    }
 }

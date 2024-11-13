@@ -1,4 +1,5 @@
-package com.example.printer_api.modules.authentication.dtos.response;
+package com.example.printer_api.modules.auth.dtos.response;
+
 import com.fasterxml.jackson.databind.PropertyNamingStrategies;
 import com.fasterxml.jackson.databind.annotation.JsonNaming;
 

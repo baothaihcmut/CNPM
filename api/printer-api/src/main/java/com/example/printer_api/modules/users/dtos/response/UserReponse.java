@@ -32,5 +32,4 @@ public class UserReponse {
     private CustomerResponse customer;
 
     private EmployeeResponse employee;
-
 }

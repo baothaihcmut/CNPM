@@ -7,5 +7,4 @@ import jakarta.validation.constraints.Past;
 public class CreateEmployeeRequest {
     @Past(message = "Start work date is invalid")
     private LocalDate startWorkDate;
-
 }

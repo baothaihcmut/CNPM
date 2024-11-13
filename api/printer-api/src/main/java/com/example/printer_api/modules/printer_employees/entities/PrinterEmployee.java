@@ -1,20 +1,17 @@
 package com.example.printer_api.modules.printer_employees.entities;
 
-import java.util.UUID;
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToOne;
+import jakarta.persistence.PrePersist;
+import jakarta.persistence.Table;
 
 import com.example.printer_api.modules.printers.entities.Printer;
 import com.example.printer_api.modules.users.entities.Employee;
 import com.example.printer_api.shared.database.BaseEntity;
 import com.fasterxml.jackson.annotation.JsonBackReference;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.Id;
-import jakarta.persistence.JoinColumn;
-import jakarta.persistence.ManyToOne;
-import jakarta.persistence.PrePersist;
-import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
@@ -46,5 +43,4 @@ public class PrinterEmployee extends BaseEntity {
             this.numOfTransactions = 0;
         }
     }
-
 }

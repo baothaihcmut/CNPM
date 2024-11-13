@@ -1,8 +1,7 @@
 package com.example.printer_api.modules.users.dtos.request;
 
-
-
 import jakarta.validation.constraints.NotEmpty;
+
 import lombok.Data;
 
 @Data

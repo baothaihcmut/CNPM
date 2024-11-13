@@ -2,12 +2,6 @@ package com.example.printer_api.modules.users.entities;
 
 import java.util.List;
 
-import com.example.printer_api.modules.documents.entities.Document;
-import com.example.printer_api.modules.transactions.entities.PrintTransaction;
-import com.example.printer_api.shared.database.BaseEntity;
-import com.fasterxml.jackson.annotation.JsonBackReference;
-import com.fasterxml.jackson.annotation.JsonManagedReference;
-
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -17,6 +11,13 @@ import jakarta.persistence.OneToMany;
 import jakarta.persistence.OneToOne;
 import jakarta.persistence.PrePersist;
 import jakarta.persistence.Table;
+
+import com.example.printer_api.modules.documents.entities.Document;
+import com.example.printer_api.modules.transactions.entities.PrintTransaction;
+import com.example.printer_api.shared.database.BaseEntity;
+import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;

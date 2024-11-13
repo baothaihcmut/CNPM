@@ -1,5 +1,7 @@
 package com.example.printer_api.modules.users.controllers;
 
+import jakarta.validation.Valid;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -12,17 +14,15 @@ import com.example.printer_api.modules.users.dtos.resquest.CreateUserRequest;
 import com.example.printer_api.modules.users.entities.Role;
 import com.example.printer_api.modules.users.entities.User;
 import com.example.printer_api.modules.users.services.UserService;
-
 import com.example.printer_api.shared.response.CustomReponse;
 import com.example.printer_api.shared.response.ResponseFactory;
-
-import jakarta.validation.Valid;
 
 @RestController
 @RequestMapping("/users")
 public class UserController {
     @Autowired
     private UserService userService;
+
     @Autowired
     private ResponseFactory responseFactory;
 

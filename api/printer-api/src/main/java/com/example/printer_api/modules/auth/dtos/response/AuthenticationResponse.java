@@ -1,4 +1,4 @@
-package com.example.printer_api.modules.authentication.dtos.response;
+package com.example.printer_api.modules.auth.dtos.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

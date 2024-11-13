@@ -1,10 +1,5 @@
 package com.example.printer_api.modules.transaction_docments.entities;
 
-import com.example.printer_api.modules.documents.entities.Document;
-import com.example.printer_api.modules.transactions.entities.PrintTransaction;
-import com.example.printer_api.shared.database.BaseEntity;
-import com.fasterxml.jackson.annotation.JsonBackReference;
-
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
@@ -13,6 +8,12 @@ import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.PrePersist;
 import jakarta.persistence.Table;
+
+import com.example.printer_api.modules.documents.entities.Document;
+import com.example.printer_api.modules.transactions.entities.PrintTransaction;
+import com.example.printer_api.shared.database.BaseEntity;
+import com.fasterxml.jackson.annotation.JsonBackReference;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
@@ -92,7 +93,5 @@ public class TransactionDocument extends BaseEntity {
         if (this.numOfPageOneSide == null) {
             this.numOfPageOneSide = 1;
         }
-
     }
-
 }

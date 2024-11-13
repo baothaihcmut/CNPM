@@ -6,5 +6,4 @@ import com.example.printer_api.modules.users.entities.Customer;
 import com.example.printer_api.shared.database.BaseRepository;
 
 @Repository
-public class CustomerRepository extends BaseRepository<Customer> {
-}
+public class CustomerRepository extends BaseRepository<Customer> {}
