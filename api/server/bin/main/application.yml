@@ -1,0 +1,30 @@
+server:
+  port: 8081
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/printerapp
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+jwt:
+  access_token:
+    sign_key: "your_super_secret_256_bit_key_32_characters_long"
+    expiration: 3
+  refresh_token:
+    sign_key: "your_super_secret_256_bit_key_32_characters_long"
+    expiration: 7
+minio:
+  url: http://localhost:9000
+  access_key: d8px8gEel2D79nmOgYPJ
+  secret_key: zgJeWpIPkwE9AQ2PGFIImm2ojMHiWnQ9N2iJGaHH
+  bucket: printerapp
+outbound: 
+  identity:
+    client_id: "904914536933-rn9iprnahvv77p78n2j7stuiinmjfqp9.apps.googleusercontent.com"
+    client_secret: "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"
+    redirect_uri: "http://localhost:5173/login"
+    grant_type: "authorization_code"
