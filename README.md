@@ -14,8 +14,7 @@
 
 ## Demo
 
-<iframe src="https://youtu.be/NLhgvS1HN98" width="800" height="450" allow="autoplay"></iframe>
-
+Đường dẫn của video demo https://youtu.be/NLhgvS1HN98
 
 ---
 
