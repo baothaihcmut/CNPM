@@ -15,7 +15,7 @@
 ## Demo
 
 ### Video Demo:
-<iframe src="[https://drive.google.com/file/d/YOUR_VIDEO_ID/preview](https://drive.google.com/file/d/1B1GFR4L1fHSw83IOJDSfeRW8Sk4Oxu5G/view?usp=drive_link)" width="800" height="450" allow="autoplay"></iframe>
+<iframe src="https://drive.google.com/file/d/1B1GFR4L1fHSw83IOJDSfeRW8Sk4Oxu5G/view?usp=drive_link" width="800" height="450" allow="autoplay"></iframe>
 
 ---
 
