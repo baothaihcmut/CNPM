@@ -14,8 +14,7 @@
 
 ## Demo
 
-[![Demo Video](https://via.placeholder.com/800x450.png?text=Click+to+Watch+Demo)](https://drive.google.com/drive/folders/1KMAVPvl3qFxcx8axu_zYN10SOxGUtmrJ?fbclid=IwY2xjawHcopNleHRuA2FlbQIxMAABHWWbntW7KAW-3iHConVYlSA9HilhLsNCP8oMzzWgT5EtByPHpwVrG0Wyuw_aem_oSoQ0ggGOXWQ6Drt8cltgA)
-
+<iframe src="https://drive.google.com/file/d/1B1GFR4L1fHSw83IOJDSfeRW8Sk4Oxu5G/preview" width="800" height="450" allow="autoplay"></iframe>
 ---
 
 ## Installation
