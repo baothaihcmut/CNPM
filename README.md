@@ -14,7 +14,7 @@
 
 ## Demo
 
-![Demo Video](https://drive.google.com/drive/folders/1KMAVPvl3qFxcx8axu_zYN10SOxGUtmrJ?fbclid=IwY2xjawHcopNleHRuA2FlbQIxMAABHWWbntW7KAW-3iHConVYlSA9HilhLsNCP8oMzzWgT5EtByPHpwVrG0Wyuw_aem_oSoQ0ggGOXWQ6Drt8cltgA)  
+[![Demo Video]([https://drive.google.com/file/d/YOUR_VIDEO_ID/view?usp=sharing](https://drive.google.com/drive/folders/1KMAVPvl3qFxcx8axu_zYN10SOxGUtmrJ?fbclid=IwY2xjawHcopNleHRuA2FlbQIxMAABHWWbntW7KAW-3iHConVYlSA9HilhLsNCP8oMzzWgT5EtByPHpwVrG0Wyuw_aem_oSoQ0ggGOXWQ6Drt8cltgA))  
 
 ---
 
@@ -27,7 +27,7 @@
     docker compose up
     ```
 
-3. Mở trình duyệt và truy cập [http://localhost:5173](http://localhost:5173) để xem ứng dụng.  
+3. Mở trình duyệt và truy cập [http://localhost:80](http://localhost:80) để xem ứng dụng.  
 
 ### Trải nghiệm ứng dụng với
 
